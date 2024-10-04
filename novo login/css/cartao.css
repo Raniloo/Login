@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/colin-farrell-oz-3840x2160-19103.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 400px;
+    font-family: "Righteous", system-ui;
+}
+
+main {
+    border: 3px solid white;
+    color: #fff;
+    width: 700px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 50px 20px 30px 50px;
+}
+
+input {
+    width: 60%;
+    height: 35px;
+    margin: 10px 0 30px 20px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px 0 0px 20px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input[type="text"] {
+    padding: 0 0 0 10px;
+}
+
+button {
+    position: relative;
+    left: 105px;
+    width: 70%;
+    height: 45px;
+    border-radius: 10px;
+    margin: 20px 0 40px 0;
+    font-size: 20px;
+    font-family: "Righteous";
+}
